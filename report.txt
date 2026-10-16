@@ -1,0 +1,16 @@
+Info: Processing symbol 'C1:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'J1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'J2:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal'.
+Info: Processing symbol 'J3:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal'.
+Info: Processing symbol 'J4:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal'.
+Info: Processing symbol 'J5:TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal'.
+Info: Processing symbol 'K1:Relay_THT:Relay_SPDT_Omron_G2RL-1-E'.
+Info: Processing symbol 'K2:Relay_THT:Relay_SPDT_Omron_G2RL-1-E'.
+Info: Processing symbol 'K3:Relay_THT:Relay_SPDT_Omron_G2RL-1-E'.
+Info: Processing symbol 'K4:Relay_THT:Relay_SPDT_Omron_G2RL-1-E'.
+Info: Processing symbol 'U1:Package_DIP:DIP-16_W7.62mm'.
+Error: J1 pad 3 not found in Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical.
+Error: J1 pad 4 not found in Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical.
+
+
+Info: Total warnings: 0, errors: 2.

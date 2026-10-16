@@ -1,0 +1,57 @@
+ERC report (2026-10-15T18:36:52, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2.500 in, 1.850 in): Symbol #PWR03 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2.500 in, 2.450 in): Symbol #PWR04 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2.750 in, 1.950 in): Symbol R1 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2.750 in, 2.250 in): Symbol R1 Pin 2 [Passive, Line]
+[label_dangling]: Label not connected
+    ; error
+    @(2.950 in, 2.300 in): Label '+3V3'
+[label_dangling]: Label not connected
+    ; error
+    @(2.950 in, 2.400 in): Label 'EN'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2.950 in, 2.550 in): Symbol R2 Pin 1 [Passive, Line]
+[label_dangling]: Label not connected
+    ; error
+    @(2.950 in, 2.600 in): Label 'IO0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2.950 in, 2.850 in): Symbol R2 Pin 2 [Passive, Line]
+[duplicate_reference]: Duplicate items #FLG?
+
+    ; error
+    @(3.750 in, 2.050 in): Symbol #FLG? [PWR_FLAG]
+    @(3.750 in, 4.250 in): Symbol #FLG? [PWR_FLAG]
+[unannotated]: Item not annotated: #FLG?
+    ; error
+    @(3.750 in, 2.050 in): Symbol #FLG? [PWR_FLAG]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3.750 in, 4.250 in): Symbol #FLG? Pin 1 [Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3.950 in, 1.750 in): Symbol #PWR01 Pin 1 [Power input, Line]
+[multiple_net_names]: Both +3V3 and GND are attached to the same items; +3V3 will be used in the netlist
+    ; warning
+    @(3.950 in, 1.750 in): Symbol #PWR01 Pin 1 [Power input, Line]
+    @(3.950 in, 4.250 in): Label 'GND'
+
+ ** ERC messages: 14  Errors 13  Warnings 1
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

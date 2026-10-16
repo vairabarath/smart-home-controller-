@@ -1,0 +1,9 @@
+# KiCad lock files
+~*.lck
+~*.lck
+
+# Embedded git history dumps
+.history
+*/.history
+*/*/.history
+*/.history/*
