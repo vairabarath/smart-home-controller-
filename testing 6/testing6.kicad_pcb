@@ -5502,7 +5502,6 @@
 		(tags "QFN NoLead")
 		(property "Reference" "U9"
 			(at 0 -3.8 0)
-			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d353fa37-05f1-4e38-8944-f53eef94262f")
 			(effects
@@ -5514,9 +5513,7 @@
 		)
 		(property "Value" "CP2102N-Axx-xQFN20"
 			(at 0 3.8 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
+			(layer "F.Fab")
 			(uuid "73f55fd2-b26c-4c92-953f-da4ae9ae5170")
 			(effects
 				(font
@@ -5544,6 +5541,18 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/no_lead"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "85741c28-a2c5-45f1-8042-986d661e4e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14171,8 +14180,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
 			(at 0 5.000001 0)
 			(unlocked yes)
-			(layer "F.SilkS")
-			(hide yes)
+			(layer "F.Fab")
 			(uuid "ebf2cf5e-3c22-48de-8dec-9674ab4408eb")
 			(effects
 				(font
@@ -14183,6 +14191,7 @@
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f379874f-6478-4220-9bb9-a3dd032eb2ed")
@@ -14194,6 +14203,7 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e3277ad-bc74-46b4-9b89-e64198de3773")
