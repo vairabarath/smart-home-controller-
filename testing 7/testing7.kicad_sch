@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "07cdc5a0-ceef-42e9-866e-f50536bdca66")
-	(paper "A3")
+	(paper "A2")
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
@@ -7230,6 +7230,26 @@
     (at 236 222 0)
     (effects (font (size 1.5 1.5) (bold yes)) (justify left bottom))
     (uuid "0c2836ff-4dd3-42ff-892c-c599c96920ac")
+  )
+  (text "1   POWER SUPPLY        U7 HLK-PM01  ->  U8 AMS1117-3.3   (+5V / +3.3V / GND)"
+    (at 44 62 0)
+    (effects (font (size 1.8 1.8) (bold yes)) (justify left bottom))
+    (uuid "a9da575b-2c14-4b9b-9be5-6c7b72550f13")
+  )
+  (text "2   RELAY MODULE        U1 ULN2003A  +  4 x PC817 opto  +  K1-K4  +  D1-D4 flyback  +  J2-J5 loads  +  J1 GPIO"
+    (at 44 38 0)
+    (effects (font (size 1.8 1.8) (bold yes)) (justify left bottom))
+    (uuid "2c76aa01-117c-4ea7-a609-78da062f3696")
+  )
+  (text "3   ESP32-S3 + SWITCHES        U6 ESP32-S3-WROOM-1  +  R5/R6 10k pull-ups  +  SW1 RESET / SW2 BOOT"
+    (at 272 34 0)
+    (effects (font (size 1.8 1.8) (bold yes)) (justify left bottom))
+    (uuid "94c7f8ba-2d03-4c07-bdaa-d2d284cbe13e")
+  )
+  (text "4   USB PROGRAMMING        J6 USB-C  +  U9 CP2102N  +  R7/R8 5.1k CC  +  C9/C10 100nF"
+    (at 240 228 0)
+    (effects (font (size 1.8 1.8) (bold yes)) (justify left bottom))
+    (uuid "5814fbac-40e3-4e53-a8b5-edc5fcd7d02d")
   )
 	(symbol
 		(lib_id "Device:C")
